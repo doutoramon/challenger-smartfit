@@ -1,0 +1,39 @@
+form {
+  /* width: 100%; */
+  font-weight: 300;
+  color: var(--light-grey);
+
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+
+  .form-container {
+    width: 100%;
+    max-width: 80%;
+   /*  height: 400px; */
+    padding: 20px;
+    margin: 0 auto;
+    border: 3px solid rgb(221, 221, 221);
+    border-radius: 10px;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+
+    .time-icon {
+      img {
+        width: 2rem;
+      }
+    }
+
+    .periods-container {
+      display: flex;
+      flex-direction: column;
+      /* justify-content: space-between; */
+    }
+
+  }
+}
